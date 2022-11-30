@@ -20,9 +20,9 @@
 - name: record-decl
   languageConstructs:
     - RecordDeclaration
-- name: enum-constant-decl
-  languageConstructs:
-    - EnumConstantDeclaration
+#- name: enum-constant-decl
+#  languageConstructs:
+#    - EnumConstantDeclaration
 - name: enum-decl
   languageConstructs:
     - EnumDeclaration
