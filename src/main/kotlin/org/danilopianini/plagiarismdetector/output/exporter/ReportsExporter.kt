@@ -1,6 +1,6 @@
 package org.danilopianini.plagiarismdetector.output.exporter
 
-import org.danilopianini.plagiarismdetector.core.Report
+import org.danilopianini.plagiarismdetector.core.facade.Report
 import org.danilopianini.plagiarismdetector.core.detector.Match
 
 /**

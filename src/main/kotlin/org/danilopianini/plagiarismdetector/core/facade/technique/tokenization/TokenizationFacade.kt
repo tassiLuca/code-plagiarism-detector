@@ -1,4 +1,4 @@
-package org.danilopianini.plagiarismdetector.core
+package org.danilopianini.plagiarismdetector.core.facade.technique.tokenization
 
 import org.danilopianini.plagiarismdetector.utils.Java
 import org.danilopianini.plagiarismdetector.core.analyzer.representation.SourceRepresentation
@@ -7,6 +7,9 @@ import org.danilopianini.plagiarismdetector.core.analyzer.technique.tokenization
 import org.danilopianini.plagiarismdetector.core.detector.ComparisonResult
 import org.danilopianini.plagiarismdetector.core.detector.technique.tokenization.TokenBasedPlagiarismDetector
 import org.danilopianini.plagiarismdetector.core.detector.technique.tokenization.TokenMatch
+import org.danilopianini.plagiarismdetector.core.facade.Report
+import org.danilopianini.plagiarismdetector.core.facade.ReportImpl
+import org.danilopianini.plagiarismdetector.core.facade.TechniqueFacade
 import org.danilopianini.plagiarismdetector.core.filter.RepresentationFilter
 import org.danilopianini.plagiarismdetector.core.filter.technique.tokenization.TokenizedSourceFilter
 import org.danilopianini.plagiarismdetector.input.configuration.TokenizationConfiguration

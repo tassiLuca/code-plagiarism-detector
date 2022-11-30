@@ -1,6 +1,6 @@
 package org.danilopianini.plagiarismdetector
 
-import org.danilopianini.plagiarismdetector.core.session.AntiPlagiarismSessionImpl
+import org.danilopianini.plagiarismdetector.core.AntiPlagiarismSessionImpl
 import org.danilopianini.plagiarismdetector.input.cli.CLIConfigurator
 import org.danilopianini.plagiarismdetector.output.StandardOutput
 import org.danilopianini.plagiarismdetector.utils.LoggerConfiguratorImpl

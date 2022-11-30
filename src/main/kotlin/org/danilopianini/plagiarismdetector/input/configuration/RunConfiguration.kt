@@ -1,6 +1,6 @@
 package org.danilopianini.plagiarismdetector.input.configuration
 
-import org.danilopianini.plagiarismdetector.core.TechniqueFacade
+import org.danilopianini.plagiarismdetector.core.facade.TechniqueFacade
 import org.danilopianini.plagiarismdetector.core.detector.Match
 import org.danilopianini.plagiarismdetector.output.exporter.ReportsExporter
 import org.danilopianini.plagiarismdetector.repository.Repository

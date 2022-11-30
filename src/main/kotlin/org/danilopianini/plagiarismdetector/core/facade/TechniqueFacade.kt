@@ -1,4 +1,4 @@
-package org.danilopianini.plagiarismdetector.core
+package org.danilopianini.plagiarismdetector.core.facade
 
 import org.danilopianini.plagiarismdetector.core.detector.Match
 import org.danilopianini.plagiarismdetector.repository.Repository

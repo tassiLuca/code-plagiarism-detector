@@ -1,8 +1,8 @@
-package org.danilopianini.plagiarismdetector.core.session
+package org.danilopianini.plagiarismdetector.core
 
-import org.danilopianini.plagiarismdetector.core.Report
-import org.danilopianini.plagiarismdetector.core.ReportImpl
 import org.danilopianini.plagiarismdetector.core.detector.Match
+import org.danilopianini.plagiarismdetector.core.facade.Report
+import org.danilopianini.plagiarismdetector.core.facade.ReportImpl
 import org.danilopianini.plagiarismdetector.input.configuration.RunConfiguration
 import org.danilopianini.plagiarismdetector.output.Output
 import org.danilopianini.plagiarismdetector.repository.Repository

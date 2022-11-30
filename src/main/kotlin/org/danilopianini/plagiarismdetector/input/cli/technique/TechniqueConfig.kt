@@ -7,7 +7,7 @@ import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.types.choice
 import org.danilopianini.plagiarismdetector.utils.Java
 import org.danilopianini.plagiarismdetector.utils.Language
-import org.danilopianini.plagiarismdetector.core.TechniqueFacade
+import org.danilopianini.plagiarismdetector.core.facade.TechniqueFacade
 import org.danilopianini.plagiarismdetector.core.detector.Match
 import org.danilopianini.plagiarismdetector.input.SupportedOptions
 

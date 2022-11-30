@@ -5,7 +5,7 @@ import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.types.double
 import com.github.ajalt.clikt.parameters.types.int
 import com.github.ajalt.clikt.parameters.types.restrictTo
-import org.danilopianini.plagiarismdetector.core.TokenizationFacade
+import org.danilopianini.plagiarismdetector.core.facade.technique.tokenization.TokenizationFacade
 import org.danilopianini.plagiarismdetector.core.detector.technique.tokenization.TokenMatch
 import org.danilopianini.plagiarismdetector.input.configuration.TokenizationConfigurationImpl
 

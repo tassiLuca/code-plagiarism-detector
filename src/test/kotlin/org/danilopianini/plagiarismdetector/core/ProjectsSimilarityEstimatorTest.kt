@@ -8,6 +8,8 @@ import io.mockk.mockk
 import org.danilopianini.plagiarismdetector.core.detector.ComparisonResult
 import org.danilopianini.plagiarismdetector.core.detector.technique.tokenization.TokenBasedComparisonResult
 import org.danilopianini.plagiarismdetector.core.detector.technique.tokenization.TokenMatch
+import org.danilopianini.plagiarismdetector.core.facade.ReportImpl
+import org.danilopianini.plagiarismdetector.core.facade.SimilarityEstimatorWithConstantWeight
 
 /**
  * A test class for testing project similarity estimations.
