@@ -52,10 +52,10 @@ class SimilarityEstimatorWithLinearWeight : ProjectsSimilarityEstimator {
         }
 
     companion object {
-        private const val PERIOD = 4.5
+        private const val PERIOD = 4.0
         private const val LOW_LEVEL = 0.5
         private const val AMPLITUDE = 0.5
-        private const val THR_MAX_WEIGHT = 0.7
+        private const val THR_MAX_WEIGHT = 0.75
         private const val MAX_WEIGHT_COEFFICIENT = 1.0
         private const val DEFAULT_PERCENTILE_VALUE = 75.0
     }
